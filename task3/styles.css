@@ -1,1 +1,58 @@
+/* styles.css */
 
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Контейнер для карточек */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Стиль для каждой карточки */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Каждая карточка займет 30% ширины контейнера */
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Эффект при наведении */
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Изображение товара */
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Кнопка "Купить" */
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #45a049;
+}
