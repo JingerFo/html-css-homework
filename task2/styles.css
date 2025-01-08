@@ -1,1 +1,46 @@
+/* styles.css */
 
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Шапка */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Основной блок */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image {
+    flex: 1;
+}
+
+img {
+    width: 300px; /* Фиксированная ширина */
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Изображение будет обрезано для соответствия размеру */
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    font-size: 12px; /* Мелкий шрифт */
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
