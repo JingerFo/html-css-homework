@@ -1,1 +1,49 @@
 
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul, ol {
+    text-align: left;
+    margin: 20px auto;
+    padding-left: 20px;
+    max-width: 500px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
